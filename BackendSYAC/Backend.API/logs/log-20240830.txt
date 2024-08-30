@@ -13,3 +13,10 @@
 2024-08-30 11:44:24.307 -05:00 [WRN] Failed to determine the https port for redirect.
 2024-08-30 11:44:26.349 -05:00 [WRN] No store type was specified for the decimal property 'ValorUnitario' on entity type 'Producto'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
 2024-08-30 11:44:29.891 -05:00 [INF] HTTP GET /api/Order/GetProducts responded 200 in 5572.1707 ms
+2024-08-30 12:00:47.643 -05:00 [INF] Now listening on: http://localhost:5023
+2024-08-30 12:00:47.692 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-30 12:00:47.694 -05:00 [INF] Hosting environment: Development
+2024-08-30 12:00:47.696 -05:00 [INF] Content root path: C:\Desarrollo\PruebaSYAC\BackendSYAC\Backend.API\
+2024-08-30 12:00:53.058 -05:00 [WRN] Failed to determine the https port for redirect.
+2024-08-30 12:00:54.402 -05:00 [WRN] No store type was specified for the decimal property 'ValorUnitario' on entity type 'Producto'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-30 12:00:55.960 -05:00 [INF] HTTP GET /api/Order/GetClients responded 200 in 2893.4174 ms

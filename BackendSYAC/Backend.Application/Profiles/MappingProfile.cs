@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Backend.Application.Features.Clients.Queries.GetClientsList;
 using Backend.Application.Features.Products.Queries.GetProductsList;
 using Backend.Domain.Entities;
 using System;
@@ -14,6 +15,7 @@ namespace Backend.Application.Profiles
         public MappingProfile()
         {
             CreateMap<Producto, ResponseGetProducsListQueryVm>().ReverseMap();
+            CreateMap<Cliente, ResponseGetClientsListQueryVm>().ReverseMap();
         }
     }
 }

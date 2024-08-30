@@ -13,6 +13,7 @@ namespace Backend.Persistence
         public static IServiceCollection AddPersistenceServices(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddScoped(typeof(IAsyncRepository<Producto>), typeof(BaseRepository<Producto>));
+            services.AddScoped(typeof(IAsyncRepository<Cliente>), typeof(BaseRepository<Cliente>));
             return services;
         }
     }

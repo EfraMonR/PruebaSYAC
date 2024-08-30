@@ -14,6 +14,7 @@ namespace Backend.Persistence
         public ConnectionDBContext(DbContextOptions<ConnectionDBContext> options) : base(options) { }
 
         public DbSet<Producto> Producto { get; set; }
+        public DbSet<Cliente> Cliente { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
