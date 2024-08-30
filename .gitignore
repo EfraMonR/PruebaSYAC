@@ -1,0 +1,5 @@
+# Archivo .gitignore global
+
+# Incluir archivos .gitignore de subproyectos
+include BackendSYAC/.gitignore
+include FrontendSYAC/.gitignore
