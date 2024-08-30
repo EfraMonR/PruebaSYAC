@@ -1,4 +1,5 @@
 ﻿using Backend.Domain.Common;
+using Backend.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,8 @@ namespace Backend.Persistence
     public class ConnectionDBContext : DbContext
     {
         public ConnectionDBContext(DbContextOptions<ConnectionDBContext> options) : base(options) { }
+
+        public DbSet<Producto> Producto { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

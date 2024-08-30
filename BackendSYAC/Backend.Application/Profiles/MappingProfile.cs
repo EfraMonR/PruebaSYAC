@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
-
+using Backend.Application.Features.Products.Queries.GetProductsList;
+using Backend.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace Backend.Application.Profiles
     {
         public MappingProfile()
         {
-            
+            CreateMap<Producto, ResponseGetProducsListQueryVm>().ReverseMap();
         }
     }
 }

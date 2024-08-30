@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Backend.Application.Exceptions;
+using Backend.Application.Features.Products.Queries.GetProductsList;
 
 namespace Backend.API.Controllers
 {
@@ -13,6 +14,21 @@ namespace Backend.API.Controllers
         public OrderController(IMediator mediator)
         {
             _mediator = mediator;
+        }
+
+        [Route("GetProducts")]
+        [HttpGet]
+        public async Task<ActionResult<ResponseGetProducsListQueryVm>> GetProducts()
+        {
+            try
+            {
+                var response = await _mediator.Send(new GetProductsListQuery());
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
     }
 }
