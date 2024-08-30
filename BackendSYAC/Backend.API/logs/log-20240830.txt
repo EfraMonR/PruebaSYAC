@@ -2,3 +2,7 @@
 2024-08-30 10:44:39.344 -05:00 [INF] Application started. Press Ctrl+C to shut down.
 2024-08-30 10:44:39.347 -05:00 [INF] Hosting environment: Development
 2024-08-30 10:44:39.349 -05:00 [INF] Content root path: C:\Users\user03\Downloads\BackendSYAC\Backend.API\
+2024-08-30 11:16:03.288 -05:00 [INF] Now listening on: http://localhost:5023
+2024-08-30 11:16:03.329 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-30 11:16:03.332 -05:00 [INF] Hosting environment: Development
+2024-08-30 11:16:03.333 -05:00 [INF] Content root path: C:\Desarrollo\PruebaSYAC\BackendSYAC\Backend.API\

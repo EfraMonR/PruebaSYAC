@@ -15,6 +15,7 @@ namespace Backend.Infraestructure
         public static IServiceCollection AddInfraestructuraServices(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddScoped(typeof(IApiService<>), typeof(ApiService<>));
+            services.AddScoped(typeof(IServiceOrder<>), typeof(ServiceOrder<>));
             return services;
         }
     }
